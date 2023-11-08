@@ -1,4 +1,4 @@
-package ie.atu.cicd2_exam_eg;
+package ie.atu.product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

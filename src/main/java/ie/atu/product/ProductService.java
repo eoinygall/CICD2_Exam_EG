@@ -1,4 +1,4 @@
-package ie.atu.cicd2_exam_eg;
+package ie.atu.product;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;

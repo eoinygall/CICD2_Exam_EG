@@ -1,10 +1,10 @@
-package ie.atu.cicd2_exam_eg;
+package ie.atu.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Cicd2ExamEgApplicationTests {
+class ProductApplicationTests {
 
     @Test
     void contextLoads() {
