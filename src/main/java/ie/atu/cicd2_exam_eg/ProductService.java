@@ -23,4 +23,12 @@ public class ProductService {
         return restTemplate.getForObject("https://islongplaceholder.typicode.com/todos/1", String.class);
     }
 
+    public String addProduct() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return restTemplate.getForObject("https://islongplaceholder.typicode.com/todos/1", String.class);
+    }
 }

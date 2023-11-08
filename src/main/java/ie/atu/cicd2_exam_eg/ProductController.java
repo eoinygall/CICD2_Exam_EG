@@ -18,4 +18,10 @@ public class ProductController {
             productService.fetchProductById();
         return "Total";
     }
+
+    @GetMapping("/new-product")
+    public String addProduct() {
+        productService.addProduct();
+        return "Total";
+    }
 }
